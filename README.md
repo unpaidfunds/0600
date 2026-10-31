@@ -1,25 +1,22 @@
 # 0600
 
-A calm daily brief for iPad. Each morning 0600 reads the sources you follow, picks the 12 or so stories worth your time and fits them into a 15-minute read. Every story gets a short summary written on the device itself, so nothing about what you read leaves your iPad.
+A daily news brief for iPad. Every morning it pulls from a set of AI, dev tools and startup sources, ranks and dedupes them, and trims the result to about 15 minutes of reading. Summaries are generated on the device with Apple's Foundation Models, so nothing you read gets sent anywhere.
 
-![0600: the opening, the brief, a story and the Cream theme](images/screens.jpg)
+![0600](images/screens.jpg)
 
-## Features
+## What it does
 
-- **Good morning, your majesty.** A quiet opening screen with an engraving that changes daily, then one tap to build or open today's brief.
-- **One brief a day.** Ranked, deduplicated stories from AI, developer tools, startups and venture sources, with stories never repeating on later days.
-- **On-device summaries.** Three key points with bold leads and a one-line "why it matters", written privately by Apple Intelligence.
-- **A reader that's just the text.** A clean centred column, adjustable text size, and a floating progress pill to move between stories.
-- **Markets, weather and calendar** at a glance on the home screen.
-- **Themes:** Dark, Warm, Cream, or Auto to follow your iPad.
-- **Saved stories** with their summary and full text, and a gentle 6 AM notification when the brief is ready.
+- Builds one brief per day, either at 6 AM in the background or when you tap Build brief
+- Three key points and a "why it matters" line per story, written on-device
+- Distraction-free reader with adjustable text size and a progress pill to move between stories
+- Markets, weather and your next meeting on the home screen
+- Dark, Warm and Cream themes, or Auto to follow the system
+- Saved stories keep their summary and full text
 
-## Availability
+## Status
 
-0600 is not on the App Store yet. Follow this repository for the first release.
-
-Requires iPadOS 27 and an iPad with Apple Intelligence for on-device summaries.
+Not on the App Store yet. Needs iPadOS 27 and an iPad that supports Apple Intelligence (summaries fall back to plain extracts otherwise).
 
 ## License
 
-0600 is proprietary software. The source code is not published. See [LICENSE](LICENSE).
+Proprietary, all rights reserved. Source isn't published. See [LICENSE](LICENSE).
